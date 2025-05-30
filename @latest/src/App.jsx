@@ -1,11 +1,13 @@
-
+import Greet  from "./Greet"
 function App(){
   return (
     <>
-  <h1>Hello,  Nitin</h1>
-  </>
+      <Greet/>
+      <p>student of III's Sonipat</p>
+    </>
+
   )
-}
+} 
 
 
 export default App
